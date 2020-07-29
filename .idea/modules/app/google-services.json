@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "451059649696",
+    "firebase_url": "https://rehberyedekleme-e25e6.firebaseio.com",
+    "project_id": "rehberyedekleme-e25e6",
+    "storage_bucket": "rehberyedekleme-e25e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451059649696:android:aa84c833b9ce8fbf210dc5",
+        "android_client_info": {
+          "package_name": "com.suatkkrer.rehberyedekleme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451059649696-487fqqbkfljaanqn2ldqf15nrg0lj9i8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.suatkkrer.rehberyedekleme",
+            "certificate_hash": "d93095641844a54e307b9b1b8a438d8f89e6b81f"
+          }
+        },
+        {
+          "client_id": "451059649696-2hjaidtel18tpagu2spr733r82pqv5kc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8xhATf3OAPeNcxsT2XUpMiLbGaphyhAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451059649696-2hjaidtel18tpagu2spr733r82pqv5kc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

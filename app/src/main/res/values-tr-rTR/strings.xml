@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rehber Yedekleme</string>
+    <string name="enter_your_email_address">Lütfen Email Adresinizi Girin</string>
+    <string name="enter_your_password">Lütfen Şifrenizi Girin</string>
+    <string name="sign_up">Kayıt ol</string>
+    <string name="i_have_already_account">Zaten hesabım var</string>
+    <string name="enter_your_email_address1">Lütfen Email Adresinizi Girin</string>
+    <string name="enter_your_password1">Lütfen Şifrenizi Girin</string>
+    <string name="forgot_my_password">Şifremi unuttum</string>
+    <string name="log_in">Giriş yap</string>
+    <string name="create_new_account">Yeni Hesap Oluştur</string>
+    <string name="new_account_is_creating">Yeni Hesap Oluşturuluyor</string>
+    <string name="please_wait">Lütfen Bekleyin...</string>
+    <string name="password_cannot_be_empty">Şifre alanı boş olamaz</string>
+    <string name="email_cannot_be_empty">Email alanı boş olamaz</string>
+    <string name="account_created_successfully">Hesap Başarıyla Oluşturuldu</string>
+    <string name="error">"Error: "</string>
+    <string name="check_your_information">Lütfen Bilgilerinizi Kontrol Edin</string>
+    <string name="permission_required">İzin Gerekli</string>
+    <string name="give_permission">İzin ver</string>
+    <string name="email_cannot_be_empty2">Email alanı boş olamaz</string>
+    <string name="password_cannot_be_empty2">Şifre alanı boş olamaz</string>
+    <string name="logging_your_account">Hesabınıza giriş yapılıyor</string>
+    <string name="please_wait2">Lütfen Bekleyin</string>
+    <string name="login_successful">Giriş Başarılı</string>
+    <string name="error2">"Error: "</string>
+    <string name="check_your_information2">Lütfen Bilgilerinizi Kontrol Edin</string>
+    <string name="backup_contacts">Rehberi Yedekle</string>
+    <string name="show_contacts">Rehberi Göster</string>
+    <string name="send_backup_file_to_email">Yedeklemeyi Maile Gönder</string>
+    <string name="bring_saved_contact_list">Kaydedilmiş Rehberi Getir</string>
+    <string name="show_saved_contacts">Kaydedilmiş Rehberi Göster</string>
+    <string name="show_my_contacts">Benim Rehberimi Göster</string>
+    <string name="log_out">Çıkış yap</string>
+    <string name="savedContact">Rehberinizi Dosyalar kısmına VCard olarak kayıt ettiniz.</string>
+    <string name="send_verification_mail">Onay maili gönder</string>
+    <string name="forgotPassword">Şifremi Unuttum</string>
+</resources>

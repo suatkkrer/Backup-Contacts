@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ContactList">
+
+    <Button
+        android:id="@+id/showContacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/show_my_contacts"
+        android:onClick="showContacts"
+        android:textAllCaps="false"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/buttons"
+        android:textSize="23sp"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="153dp" />
+
+    <Button
+        android:id="@+id/backupContacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/showContacts"
+        android:layout_marginTop="50dp"
+        android:text="@string/backup_contacts"
+        android:onClick="BackupContacts"
+        android:textAllCaps="false"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/buttons"
+        android:textSize="23sp"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="223dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/backupContacts"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/buttons"
+        android:onClick="savedContacts"
+        android:textSize="23sp"
+        android:textColor="@android:color/background_light"
+        android:text="@string/show_saved_contacts"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/button3"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:onClick="sendMail"
+        android:background="@drawable/buttons"
+        android:textSize="23sp"
+        android:textColor="@android:color/background_light"
+        android:text="@string/send_backup_file_to_email"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="418dp" />
+
+
+</RelativeLayout>
